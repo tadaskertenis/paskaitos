@@ -1,0 +1,52 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: green;
+}
+
+header button {
+  background-color: #a81094;
+  color: white;
+}
+
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #1a1169;
+  height: 90vh;
+}
+
+.conteiner button {
+  background-color: #a81094;
+  color: white;
+}
+
+.conteiner div {
+  width: 62.5%;
+  color: white;
+  background-color: aqua;
+  height: calc(100% - 90px);
+}
+/*# sourceMappingURL=style.css.map */

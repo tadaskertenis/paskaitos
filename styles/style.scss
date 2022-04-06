@@ -1,0 +1,39 @@
+@import 'variable';
+// %turiniolygiavimas {
+//     display: flex;
+//   justify-content: center;
+//   align-items: center;
+
+@mixin centerlements($property, $color) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $property;
+  background-color: $color;
+}
+
+header {
+  @include centerlements(column, green);
+  //   background-color: bisque;
+  button {
+    background-color: $btnBackgroundGreen;
+    color: white;
+  }
+}
+
+.conteiner {
+  @include centerlements(row, rgb(26, 17, 105));
+  height: 90vh;
+
+  button {
+    background-color: $btnBackgroundGreen;
+    color: white;
+  }
+  div {
+      width: 600px / 960px * 100%;
+      color: white;
+    //   height: 50px / 2000px * 20%;
+      background-color: aqua;
+      height: calc(100% - 90px);
+  }
+}

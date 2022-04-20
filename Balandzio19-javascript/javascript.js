@@ -160,9 +160,14 @@ console.log('visos dienos po pop, istrina paskutini element', savaitesDienos);
 
 // loops pratimas
 
-// for (let i = 0; i < 10; i++) {
-//     console.log ("Petras")
-// }
+for (let i = 0; i < 10; i++) {
+    console.log(`${i} Petras`);
+}
+
+for (let j = 10; j > 0; j--) {
+  console.log(`${j} Petras`);
+}
+
 
 // console.log ("kitos eilutes");
 

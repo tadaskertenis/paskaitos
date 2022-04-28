@@ -4,22 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
+    <div class="conteiner">
       <h1>How much money should you take to your vacation</h1>
-    <form>
-      <label for="country-dropdown">Choose a country</label>
-      <select name="coutries-list" id="country-dropdown">
+      <form>
+        <label for="country-dropdown">I'm traveling to</label>
+        <select name="coutries-list" id="country-dropdown" pla="country">
+          <option value="0">Country</option>
           <option value="45">Lithuania</option>
           <option value="56">Spain</option>
-      </select>
-      <label for="number-of-days">How long is your vacation?</label>
-      <input id="number-of-days" type="number" min="0" max="365" />
-      <button type="submit">Calculate</button>
-    </form>
-    <h2></h2>
+        </select>
+        <label for="number-of-days">, and I'm going to stay there for</label>
+        <input
+          id="number-of-days"
+          type="number"
+          min="1"
+          max="365"
+          placeholder="# of days"
+        />
+        <button type="submit">Calculate</button>
+      </form>
 
+      <h2></h2>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

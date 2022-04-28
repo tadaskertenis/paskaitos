@@ -3,7 +3,7 @@ const kaina = 6;
 let rezultatoLaukas = document.querySelector("h1");
 function kainosApskaiciavimas(event) {
   event.preventDefault();
-  const amzius = document.querySelector("#input-field").value; //is html 12 eilutes paemu tuscia input field.
+  const amzius = document.querySelector("#input-field") //is html 12 eilutes paemu tuscia input field.
   if (amzius < 0) {
     rezultatoLaukas.textContent = "Eik is cia";
     return;

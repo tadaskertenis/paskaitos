@@ -77,4 +77,10 @@ button {
   letter-spacing: 1px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

@@ -5,8 +5,12 @@
 
 //sudeda saliu sarasa
 const countries = [
-  { id: "1", name: "Lithuania", price: 30 },
-  { id: "2", name: "Spain", price: 40 },
+  { id: "1", name: "Country", price: 0 },
+  { id: "2", name: "Lithuania", price: 38.35 },
+  { id: "3", name: "Spain", price: 54 },
+  { id: "4", name: "Latvia", price: 43 },
+  { id: "5", name: "Estonia", price: 42 },
+  { id: "6", name: "Poland", price: 15.67 },
   ];
 
   // istumia sali i pasirinkima
@@ -35,7 +39,7 @@ console.log(totalMoney);
 
 
 
-finalResult.innerText = totalMoney.toFixed(2);
+finalResult.innerText = totalMoney.toFixed(2) + " € should cover your local expenses, Enjoy your Trip!";
 }
 
 document.querySelector("form").addEventListener("submit", moneyCalculator);

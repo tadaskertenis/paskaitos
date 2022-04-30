@@ -12,6 +12,7 @@ body {
   align-items: center;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
   color: rgba(29, 29, 29, 0.589);
+  max-width: 100%;
 }
 
 .conteiner {
@@ -51,6 +52,7 @@ h1::before {
   outline: none;
   border: 1px solid #ccc;
   font-size: 16px;
+  min-width: 120px;
 }
 #number-of-days {
   padding-left: 15px;
@@ -66,14 +68,70 @@ button {
   font-weight: 500;
   border-radius: 5px;
   letter-spacing: 1px;
-background: linear-gradient(135deg, #71b7e6, #9b59b6);
-border-color: blue;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 footer {
-position: fixed;
-bottom: 10px;
-text-align: center;
+  position: fixed;
+  bottom: 25px;
+  text-align: center;
 }
 
-// @media only screen and(max-width: 584px)
+#inline {
+  display: inline-block;
+  min-width: 120px;
+}
+
+h2 {
+  margin-top: 10px;
+
+  color: #1a936f;
+  font-size: 16pt;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.info {
+  position: fixed;
+  bottom: 200px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+  .info {
+    position: fixed;
+    bottom: 230px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 11pt;
+    margin-bottom: 10px;
+  }
+
+ 
+    button {
+      height: 90px;
+      width: 100%;
+      margin-top: 10px;
+      outline: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 11px;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+      border-color: rgb(255, 255, 255);
+      margin-bottom: -16px;
+      cursor: pointer;
+    }
+  }
+  
+

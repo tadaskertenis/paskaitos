@@ -27,7 +27,6 @@ body {
   background: #fff;
   padding: 25px 30px;
   border-radius: 5px;
-  height: 200px;
 }
 
 h1 {
@@ -76,6 +75,7 @@ button {
   border-radius: 5px;
   letter-spacing: 1px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  border-color: blue;
 }
 
 footer {

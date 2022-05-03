@@ -11,6 +11,19 @@ const countries = [
   { id: "4", name: "Latvia", price: 43 },
   { id: "5", name: "Estonia", price: 42 },
   { id: "6", name: "Poland", price: 15.67 },
+  { id: "7", name: "Belarus", price: 22.85 },
+  { id: "8", name: "Finland", price: 58 },
+  { id: "9", name: "Sweden", price: 44.58 },
+  { id: "10", name: "Norway", price: 48.37 },
+  { id: "11", name: "Denmark", price: 70.19 },
+  { id: "12", name: "Germany", price: 51 },
+  { id: "13", name: "Czech", price: 28.38 },
+  { id: "14", name: "Hungary", price: 26.49 },
+
+
+
+
+
   ];
 
   // istumia sali i pasirinkima

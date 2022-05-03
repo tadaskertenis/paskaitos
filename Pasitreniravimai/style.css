@@ -107,14 +107,14 @@ a {
 
 .info {
   position: fixed;
-  bottom: 200px;
+  bottom: 160px;
   text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
   .info {
     position: fixed;
-    bottom: 230px;
+    bottom: 160px;
     text-align: center;
   }
   h1 {

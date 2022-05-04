@@ -25,15 +25,15 @@
 //     neegzistuoja.
 
 // const name = document.querySelector('#name');
-// const name = document.querySelector('#name');
+// const surname = document.querySelector('#name');
 
-// const newPerson = document.querySelector("div");
+// ;
 // const createAPerson = document.querySelector("form");
 
 // createAPerson.addEventListener("submit", nameCreator);
 
 // function nameCreator(name, surname) {
-//   const vardas = document.querySelector("#name");
+//   const vardas = document.querySelector("#vardas");
 //   const pavarde = document.querySelector("#pavarde");
 
 //   return {
@@ -46,15 +46,23 @@
 const createAPerson = document.querySelector("form")
 createAPerson.addEventListener("submit", user)
 
-function user (name, surname){
-    const vardas = document.querySelector("#name");
-    const pavarde = document.querySelector("#pavarde");
+function user(event){
+    event.preventDefault();
+    const vardas = document.querySelector("#vardas").value;
+    const pavarde = document.querySelector("#pavarde").value;
     
-    this.name = vardas;
-    this.surname = pavarde;
+    const useris = {
+        name: vardas,
+        surname: pavarde,
+    };
+    const newPerson = document.querySelector("div");
+    newPerson.innerText = `${useris.name} ${useris.surname}`; 
 
+
+
+   
 };
-const useris = new useris ('vardas', 'pavarde');
+//const useris = new useris ('vardas', 'pavarde');
 
 
 
